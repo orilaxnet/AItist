@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support - AItist</title>
+    <title>Support - AItist - Data Rights & Account Management</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -15,7 +15,7 @@
         }
 
         .container {
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
             background: white;
             padding: 30px;
@@ -28,6 +28,14 @@
             text-align: center;
             margin-bottom: 30px;
             font-size: 2em;
+        }
+
+        h2 {
+            color: #34495e;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            margin-top: 35px;
+            margin-bottom: 20px;
         }
 
         .contact-section {
@@ -46,20 +54,31 @@
             padding: 12px 24px;
             border-radius: 6px;
             font-weight: 500;
-            margin-top: 15px;
+            margin: 10px;
         }
 
         .contact-button:hover {
             background: #0051D5;
         }
 
-        .faq {
-            margin-top: 40px;
+        .data-rights-section {
+            background: #e8f4fd;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #007AFF;
+            margin: 20px 0;
         }
 
-        .faq h2 {
-            color: #2c3e50;
-            margin-bottom: 20px;
+        .emergency-section {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #ff9800;
+            margin: 20px 0;
+        }
+
+        .faq {
+            margin-top: 40px;
         }
 
         .faq-item {
@@ -79,6 +98,16 @@
         .faq-answer {
             padding: 15px;
             background: white;
+        }
+
+        .request-template {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 14px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
         }
 
         .links {
@@ -117,15 +146,133 @@
         <div class="contact-section">
             <h2>Need Help?</h2>
             <p>For any questions, issues, or support requests, please contact us:</p>
-            <a href="mailto:support@fluentafast.com" class="contact-button">Email Support</a>
+            <a href="mailto:support@fluentafast.com" class="contact-button">📧 General Support</a>
+            <a href="mailto:support@fluentafast.com?subject=Data Rights Request" class="contact-button">🔒 Data Rights Request</a>
             <p style="margin-top: 15px; color: #666; font-size: 14px;">
-                We typically respond within 24 hours
+                We typically respond within 24 hours<br>
+                Data rights requests processed within 30 days
             </p>
+        </div>
+
+        <div class="data-rights-section">
+            <h3>🛡️ Your Data Rights</h3>
+            <p><strong>Lost access to the app?</strong> No problem! You can still manage your data and exercise your privacy rights.</p>
+            
+            <h4>Available Rights:</h4>
+            <ul>
+                <li><strong>Access:</strong> Get a copy of all your data</li>
+                <li><strong>Deletion:</strong> Remove your account and all associated data</li>
+                <li><strong>Correction:</strong> Fix any incorrect personal information</li>
+                <li><strong>Portability:</strong> Transfer your data to another service</li>
+            </ul>
+        </div>
+
+        <div class="emergency-section">
+            <h3>⚠️ Account Deletion</h3>
+            <p><strong>Important:</strong> Account deletion is only available via email request.</p>
+            <p>The app does not currently have an in-app account deletion feature. You must contact us via email to delete your account.</p>
+        </div>
+
+        <h2>📝 Data Request Templates</h2>
+
+        <h3>Template 1: Account Deletion Request</h3>
+        <div class="request-template">
+Subject: Account Deletion Request
+
+Dear AItist Support,
+
+I request complete deletion of my account and all associated data.
+
+Account Information:
+- Email (if added): [your-email@example.com OR "None added"]
+- App usage period: [e.g., "June 2024 - December 2024"]
+- Device: [e.g., "iPhone 15 Pro"]
+- Approximate install date: [e.g., "June 2024"]
+
+Purchase Information (if any):
+- In-app purchases made: [List any credits/subscriptions purchased]
+- Apple ID used: [your-apple-id@example.com]
+
+Additional Info:
+- Generated images: [Attach 1-2 example images you created, if available]
+- Any other identifying information: [Optional]
+
+I understand this action is irreversible.
+
+Best regards,
+[Your Name]
+        </div>
+
+        <h3>Template 2: Data Access Request</h3>
+        <div class="request-template">
+Subject: Data Access Request
+
+Dear AItist Support,
+
+I request a copy of all personal data you have about me.
+
+Account Information:
+- Email (if added): [your-email@example.com OR "None added"]
+- App usage period: [e.g., "June 2024 - December 2024"]
+- Device: [e.g., "iPhone 15 Pro"]
+
+I would like to receive:
+- Account profile information
+- Generated images and metadata
+- Purchase history
+- Any other personal data processed
+
+Please provide the data in a machine-readable format.
+
+Best regards,
+[Your Name]
         </div>
 
         <div class="faq">
             <h2>Frequently Asked Questions</h2>
             
+            <div class="faq-item">
+                <div class="faq-question">I deleted the app and didn't add an email. Can I still access my data?</div>
+                <div class="faq-answer">
+                    Yes! While it's more challenging without an email, we can still help. Contact us with your purchase information, device details, and any generated images you saved. We'll do our best to identify your account and assist with your data rights.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do you identify my account without email?</div>
+                <div class="faq-answer">
+                    We use multiple methods: Apple purchase records (cross-referenced with your Apple ID), device information, usage patterns, and generated image examples you can provide. While email makes it easier, we have alternative identification methods.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What happens to my data after account deletion?</div>
+                <div class="faq-answer">
+                    All personal data is permanently removed within 30 days. Purchase records may be retained for legal compliance (tax purposes) for up to 7 years, but these are anonymized. Generated images are permanently deleted unless you specifically request otherwise.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I get my data even if I'm not in the EU or California?</div>
+                <div class="faq-answer">
+                    Yes! We provide data rights to all users regardless of location. We believe privacy is a fundamental right for everyone using our app.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How long do you take to process data requests?</div>
+                <div class="faq-answer">
+                    We process all data rights requests within 30 days, as required by GDPR. Most requests are completed much faster. We'll send you confirmation and updates throughout the process.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Is there a fee for data requests?</div>
+                <div class="faq-answer">
+                    No, all data rights requests are completely free. We never charge for providing access to your data or processing deletion requests.
+                </div>
+            </div>
+
             <div class="faq-item">
                 <div class="faq-question">How do I cancel my subscription?</div>
                 <div class="faq-answer">
